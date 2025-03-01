@@ -1,0 +1,7 @@
+csi:
+  kubeletRootDir: /var/snap/microk8s/common/var/lib/kubelet
+defaultSettings:
+  defaultDataPath: /longhorn
+longhornManager:
+  serviceAnnotations:
+    tailscale.com/expose: "true"
